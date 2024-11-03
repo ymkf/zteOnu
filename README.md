@@ -144,6 +144,7 @@ Type `./zteonu -h` for help
 
 
 —修改用户限制—
+
 ` sendcmd 1 DB p CltLmt `
 
 ` sendcmd 1 DB set CltLmt 8 Max 20 ` 修改最大用户数为20，可以改成其他数目，最大数目不超过255
@@ -155,6 +156,7 @@ Type `./zteonu -h` for help
 
 
 —关闭开启指示灯—
+
 ` sendcmd 1 DB p WLCInfo ` 查看
 
 ` sendcmd 1 DB set WLCInfo 0 WLCStatus 1 ` 关闭
